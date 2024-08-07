@@ -1,0 +1,88 @@
+/*
+    Author: Chip Weatherly
+    File Name: styles.css
+    Date: 8/7/2024
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #cc9650;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Style rules for mobile viewport*/
+/* Things that appear in mobile go here */
+/* Shows the mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport (checks the screen size) */
+
+@media screen and (min-width: 630px), print {
+    
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    /* Tablet sized stuff goes here */
+    .tablet-desktop {
+        display: block;
+    }
+    
+    .mobile {
+        display: none;
+    }
+    
+/* Media Query for Desktop Viewport */
+/* Desktop sized stuff goes here */
+@media screen and (min-width: 1015px), print {
+    
+    #header-flex {
+        display: flex;
+        align-items: stretch;
+    }
+    
+    /* Desktop Viewport: Style rule for header */
+    
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    } 
+    
+/* Media Query for Large Desktop Viewports */
+/* Special stuff for giant screen nerds */
+@media screen and (min-width: 1921px) {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
