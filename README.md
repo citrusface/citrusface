@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-**citrusface/citrusface** is a ✨ _special_ ✨ repository because its `README.md` is what I going to use for my profile becasue i am feeling super low effort right now. 
+**citrusface/citrusface** is a ✨ _special_ ✨ repository because its `README.md` is what i am going to use for my profile becasue i am feeling super low effort right now. 
 
 Here are some ideas git.hub suggested that i've filled out:
 
